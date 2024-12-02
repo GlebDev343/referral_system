@@ -96,3 +96,9 @@ This project implements a referral system using Django, DRF, and PostgreSQL. It 
 ## Documentation
 
 - Postman collection is available for testing API.
+
+https://glebteam.postman.co/workspace/gleb_team-Workspace~e671f400-36f1-4a56-8da1-327f90fe700a/collection/39937741-77ca211d-587d-410f-afbd-99b7a875a1a4?action=share&creator=39937741
+
+- Redoc description of API is available.
+
+http://127.0.0.1:8000/api/redoc/
