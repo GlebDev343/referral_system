@@ -101,4 +101,4 @@ https://glebteam.postman.co/workspace/gleb_team-Workspace~e671f400-36f1-4a56-8da
 
 - Redoc description of API is available.
 
-http://127.0.0.1:8000/api/redoc/
+referral-system-eauj.onrender.com/api/redoc
