@@ -106,6 +106,7 @@ import dj_database_url
 
 DATABASES = {
     'default': {
+        "ENGINE": "django.db.backends.postgresql",
         "default": dj_database_url.parse(config('DATABASE_URL'))
     }
 }
