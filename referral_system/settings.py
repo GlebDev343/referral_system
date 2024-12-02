@@ -105,11 +105,11 @@ WSGI_APPLICATION = 'referral_system.wsgi.application'
 import dj_database_url
 
 DATABASES = {
-    'default': {
-        "ENGINE": "django.db.backends.postgresql",
-        "default": dj_database_url.parse(config('DATABASE_URL'))
-    }
+    'default': dj_database_url.config(
+        default=config('DATABASE_URL')
+    )
 }
+
 
 
 # Password validation
